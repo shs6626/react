@@ -1,2 +1,2 @@
 # react
-react practice
+react basic
