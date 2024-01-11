@@ -1,4 +1,5 @@
-const { Component } = require("react");
+import { Component } from "react";
+import ExpenseForm from "./components/ExpenseForm";
 
 class App extends Component {
   render() {
@@ -8,17 +9,17 @@ class App extends Component {
         <div
           style={{ width: "100%", backgroundColor: "white", padding: "1rem" }}
         >
-          Expens Form
+          <ExpenseForm />
         </div>
         <div
           style={{ width: "100%", backgroundColor: "white", padding: "1rem" }}
         >
-          Expens List
+          {/* Expens List */}
         </div>
 
         <div style={{ display: "flex", justifyContent: "end", margin: "1rem" }}>
           <p style={{ fontSize: "2rem" }}>
-            Total:
+            {/* Total: */}
             <span>원</span>
           </p>
         </div>
