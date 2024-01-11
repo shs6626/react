@@ -85,3 +85,15 @@ react는 먼저 컴포넌트를 렌더링한 뒤 이전에 렌더링 된 결과�
 메오이제이션이란?
 
 주어진 입력값에 대한 결과를 저장함으로써 같은 입력값에 대해 함수가 한번만 실행되는 것을 보장한다.
+
+# React context
+
+react에서 한 컴포넌트 안에서 데이터를 생성하거나 업데이트하거나 다른 컴포넌트와 데이터를 공유해서 사용하는 방법은 여러 가지 방법이 있다.
+
+react context는 component 트리의 깊이에 관계없이 props를 전달하지 않고 component에 데이터를 제공한다. context는 전역 데이터를 관리하는데 사용된다.
+
+createContext API를 이용해서 Context 생성하기
+
+context value를 공유하기 원하는 component를 context.provider로 감싸주기 또한 공유하기 원하는 value를 value props로 전달하기
+
+해당 컴포넌트에서 context value를 사용하기 위해서 useContext hook 이용하기
